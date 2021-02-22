@@ -2,6 +2,6 @@
 
 require('dotenv').config();
 
-const server = require('./server');
+const server = require('./server/server.js');
 
 server.start(process.env.PORT);
